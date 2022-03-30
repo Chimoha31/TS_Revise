@@ -12,7 +12,7 @@
 }
 
 .submitButton {
-  padding: 10px 15px;
+  padding: 11px 15px;
   cursor: pointer;
 }
 
@@ -25,4 +25,16 @@
 
 .todoList li input {
   padding: 7px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid green;
+}
+
+button {
+  padding: 5px 7px;
+  transition: opacity 2s ease;
+}
+
+button:hover {
+  opacity: 0.8;
 }
